@@ -1,6 +1,7 @@
 import { registrationsAirtable } from '../../lib/airtable'
 import { requiredList } from '../../lib/manifest'
 
+export const runtime = 'edge'
 export default async function Submit (req, res) {
     const missing = [];
     try {

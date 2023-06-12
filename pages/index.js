@@ -16,7 +16,7 @@ export default () => {
     const router = useRouter()
     return <Layout>
         <Card px={[4, 4]} pb={[4, 4]} pt={[2,2]}>
-            <Box pb={10}>
+            <Box pb={10} mt={3}>
             <Text variant={"title"} color={"primary"}>Vermont's First-Ever FRC Event!</Text>
                 <Flex my={2} sx={{
                     flexDirection: "column",

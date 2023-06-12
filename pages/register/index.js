@@ -41,8 +41,9 @@ export default function Register({ notFound, registrationRecord, params }) {
       <Card px={[4, 4]} pb={[4, 4]} pt={[4,2]} sx={{
           boxShadow: "none",
       }}>
+          <Box my={3}><Text variant={"title"} color={"primary"}>Registration</Text></Box>
           <Box bg="sunken" p={3} mb={3} sx={{ borderRadius: 3 }}>
-              <Text sx={{fontSize: "17px"}}>
+              <Text sx={{fontSize: "18px"}}>
               Thank you for your interest in Ice Cream Social! We're CHARGED UP to be running this event.
               <br/><br/>This event is planned to happen on Saturday, September 16,
               with load-in starting the evening before. There is no registration fee, but teams are encouraged
