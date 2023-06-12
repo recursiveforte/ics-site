@@ -6,6 +6,7 @@ import {faCalendar, faIceCream, faMapPin} from "@fortawesome/free-solid-svg-icon
 import "@fortawesome/fontawesome-svg-core/styles.css"
 import {colors} from "../lib/theme";
 import {useRouter} from "next/router";
+import Link from "next/link";
 
 const Icon = ({icon, viewboxX=0}) => <Text variant={"headline"} mb={0} mr={3} sx={{textAlign: "center"}}>
     <FontAwesomeIcon  viewBox={`${viewboxX} 0 512 512`} icon={icon} ></FontAwesomeIcon>
@@ -43,8 +44,8 @@ export default () => {
                     </Flex>
 
                 </Flex>
-                <Button mr={4} mt={3} variant={"lg"} onClick={() => {router.push("/register")}}>Register!</Button>
-
+                <Link href={"/register"}><Button mr={3} my={3} variant={"lg"}>Register!</Button></Link>
+                <Link href={"mailto:team@greenmountainrobotics.org"}><Button my={3} variant={"lg"} backgroundColor={"primary"}>Contact</Button></Link>
             </Box>
         </Card>
     </Layout>

@@ -48,6 +48,7 @@ export default function Register({ notFound, registrationRecord, params }) {
               <br/><br/>This event is planned to happen on Saturday, September 16,
               with load-in starting the evening before. There is no registration fee, but teams are encouraged
               to <Link href={"https://greenmountainrobotics.org/donate"}>donate what they think is fair</Link>.
+                  <br/><br/>Feel free to email <Link href={"mailto:team@greenmountainrobotics.org"}>team@greenmountainrobotics.org</Link> with any questions!
               </Text>
           </Box>
         {manifest.questions.map((sectionItem, sectionIndex) => {
