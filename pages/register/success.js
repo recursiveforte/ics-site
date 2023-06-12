@@ -22,24 +22,19 @@ import Layout from "../layout";
 export default function Register({ notFound, registrationRecord, params }) {
   return (
       <Layout>
-      <Card
-        px={[4, 4]}
-        py={[0,0]}
-        sx={{
-          color: '#0b1a2e',
-          textAlign: 'left',
-          backgroundColor: "hsl(47, 77%, 95%)"
-        }}
-      >
-        <Text sx={{ color: "primary", fontSize: '27px', fontWeight: "bold" }}>
+        <Card px={[2, 4]} pb={[4, 4]} pt={[2,2]}>
+            <Box pb={10} mt={3}>
+
+        <Text sx={{ color: "primary"}} variant={"title"}>
           Thank you for signing up!
         </Text>
         <br /><br/>
-        <Text>
+            <Text sx={{fontSize: "18px"}}>
           Your team is now registered for Ice Cream Social! ❤️🍦<br/><br/>
           Make sure you check your email in
           the coming days and weeks for important updates, and we can't wait to see you there!
         </Text>
+            </Box>
       </Card>
       </Layout>
   )
