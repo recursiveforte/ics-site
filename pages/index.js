@@ -1,7 +1,6 @@
 import Logo from "../components/logo";
 import Layout from "./layout";
 import {Box, Button, Card, Flex, Grid, Image, Text} from "theme-ui";
-import img from "../public/HaZ7TNoh.jpg"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCalendar, faIceCream, faMapPin} from "@fortawesome/free-solid-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css"
