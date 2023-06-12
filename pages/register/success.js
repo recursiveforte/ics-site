@@ -20,22 +20,21 @@ import theme, {colors} from "../../lib/theme";
 import Layout from "../layout";
 
 export default function Register({ notFound, registrationRecord, params }) {
-  return (
-      <Layout>
-        <Card px={[2, 4]} pb={[4, 4]} pt={[2,2]}>
-            <Box pb={10} mt={3}>
+  return <Layout>
+          <Card px={[2, 4]} pb={[4, 4]} pt={[4,2]}>
 
-        <Text sx={{ color: "primary"}} variant={"title"}>
-          Thank you for signing up!
-        </Text>
-        <br /><br/>
-            <Text sx={{fontSize: "18px"}}>
-          Your team is now registered for Ice Cream Social! ❤️🍦<br/><br/>
-          Make sure you check your email in
-          the coming days and weeks for important updates, and we can't wait to see you there!
-        </Text>
-            </Box>
-      </Card>
+              <Box my={3}>
+                  <Text variant={"title"} color={"primary"}>Thank you for signing up!</Text>
+              </Box>
+
+              <Box bg="sunken" p={3} mb={3} sx={{ borderRadius: 3 }}>
+                  <Text sx={{fontSize: "18px"}}>
+                      Your team is now registered for Ice Cream Social! ❤️🍦<br/><br/>
+                      Make sure you check your email in
+                      the coming days and weeks for important updates, and we can't wait to see you there!
+                  </Text>
+              </Box>
+          </Card>
       </Layout>
-  )
+
 }
