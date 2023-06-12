@@ -38,7 +38,7 @@ export default function Register({ notFound, registrationRecord, params }) {
   return (
     <Layout>
       <ToastContainer align="right" />
-      <Card px={[4, 4]} pb={[4, 4]} pt={[4,2]} sx={{
+      <Card px={[2, 4]} pb={[4, 4]} pt={[4,2]} sx={{
           boxShadow: "none",
       }}>
           <Box my={3}><Text variant={"title"} color={"primary"}>Registration</Text></Box>
