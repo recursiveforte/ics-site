@@ -10,6 +10,7 @@ import Meta from '../components/meta'
 import Head from 'next/head'
 import Link from "next/link";
 import ColorSwitcher from "../components/color-switcher";
+import {Analytics} from "@vercel/analytics/react";
 
 export default class App extends NextApp {
   render() {
@@ -61,6 +62,8 @@ export default class App extends NextApp {
           }
         `}
         </style>
+          <Analytics />
+
       </ThemeProvider>
     )
   }
