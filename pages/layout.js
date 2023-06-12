@@ -11,7 +11,7 @@ export default ({children}) => <>
         borderColor: "black"
     }}>
         {children}
-        <Box py={[3,3]} mt={3} mb={2} sx={{
+        <Box py={[3,3]} mt={3} mb={2} mx={[2,4]} sx={{
             textAlign: "right",
         }}>
             <Text variant={"subtitle"} sx={{            fontWeight: "bold",

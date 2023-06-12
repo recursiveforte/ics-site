@@ -14,7 +14,7 @@ const Icon = ({icon, viewboxX=0}) => <Text variant={"headline"} mb={0} mr={3} sx
 export default () => {
     const router = useRouter()
     return <Layout>
-        <Card px={[4, 4]} pb={[4, 4]} pt={[2,2]}>
+        <Card px={[2, 4]} pb={[4, 4]} pt={[2,2]}>
             <Box pb={10} mt={3}>
             <Text variant={"title"} color={"primary"}>Vermont's First-Ever FRC Event!</Text>
                 <Flex my={2} sx={{
