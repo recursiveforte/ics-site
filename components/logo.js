@@ -5,7 +5,7 @@ import * as React from "react";
 export default () =>
     <Container variant={"wide"} pt={4}>
     <Box
-    px={[4, 100]}
+    px={[2, 100]}
     pb={[2,2]}
     pt={[2,4]}
     sx={{
