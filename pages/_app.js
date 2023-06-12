@@ -36,7 +36,7 @@ export default class App extends NextApp {
               minHeight: '100vh',
               width: '100vw',
               overflowY: 'scroll',
-                backgroundColor: "hsl(47, 77%, 95%)"
+                backgroundColor: "hsl(47, 77%, 92%)"
             }}
           >
 {/*              <div style={{
