@@ -46,8 +46,7 @@ export default function Register({ notFound, registrationRecord, params }) {
               <Text sx={{fontSize: "18px"}}>
               Thank you for your interest in Ice Cream Social! We're CHARGED UP to be running this event.
               <br/><br/>This event is planned to happen on Saturday, September 16,
-              with load-in starting the evening before. <!-- There is no registration fee, but teams are encouraged
-              to <Link href={"https://greenmountainrobotics.org/donate"}>donate what they think is fair</Link>. -->
+              with load-in starting the evening before.
                   <br/><br/>Feel free to email <Link href={"mailto:team@greenmountainrobotics.org"}>team@greenmountainrobotics.org</Link> with any questions!
               </Text>
           </Box>
