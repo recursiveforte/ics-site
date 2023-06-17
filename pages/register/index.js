@@ -47,6 +47,7 @@ export default function Register({ notFound, registrationRecord, params }) {
               Thank you for your interest in Ice Cream Social! We're CHARGED UP to be running this event.
               <br/><br/>This event is planned to happen on Saturday, September 16,
               with load-in starting the evening before. There is no registration fee!
+                  <br/><br/> If you're interested in volunteering, please fill out the <Link href={"/register/volunteer"}>volunteer registration form</Link>!
                   <br/><br/>Feel free to email <Link href={"mailto:team@greenmountainrobotics.org"}>team@greenmountainrobotics.org</Link> with any questions!
               </Text>
           </Box>

@@ -1,5 +1,5 @@
 import { registrationsAirtable } from '../../lib/airtable'
-import { requiredList } from '../../lib/manifest'
+import { requiredList } from '../../lib/manifest_volunteers'
 
 export default async function Submit (req, res) {
     const missing = [];
@@ -21,7 +21,7 @@ export default async function Submit (req, res) {
     if (missing.length) return res.json({ success: false, error: `You are missing some fields: ${missing.map(item => `"${item}"`).join(", ")}` });
 
     try {
-        await registrationsAirtable("Registrations").create(req.body);
+        await registrationsAirtable("Volunteers").create(req.body);
     } catch (err) {
         return res.json({ success: false, error: err.message });
     }
