@@ -16,7 +16,7 @@ export default ({children}) => <>
         }}>
             <Text variant={"subtitle"} sx={{            fontWeight: "bold", fontFamily: `'Eczar', serif`
             }}>
-            Made with 💚 by <Link href={"https://greenmountainrobotics.org"}>Green Mountain Robotics 9101</Link> & <Link href={"https://rutlandrobotics.org"}>iBots 2370</Link>
+            Made with 💚 by <Link href={"https://greenmountainrobotics.org"}>Green Mountain Robotics 9101</Link> & <Link href={"https://rutlandrobotics.org"}>IBots 2370</Link>
                 <br/>Presented by FIRSTinVT, UVM CEMS, and Ben & Jerry's
             </Text>
             </Box>
