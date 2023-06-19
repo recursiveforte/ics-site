@@ -45,7 +45,7 @@ export default () => {
 
                 </Flex>
                 <Link href={"/register"}><Button mr={3} mt={3} variant={"lg"}>Volunteer/Team Registration</Button></Link>
-                <Link href={"mailto:team@greenmountainrobotics.org"}><Button mt={3} variant={"lg"} backgroundColor={"primary"}>Contact</Button></Link>
+                <Link href={"mailto:team@greenmountainrobotics.org"}><Button mt={3} variant={"lg"} backgroundColor={"primary"} >Contact</Button></Link>
             </Box>
         </Card>
     </Layout>

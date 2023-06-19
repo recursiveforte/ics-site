@@ -18,4 +18,13 @@ module.exports = withMDX({
       },
     ]
   },
+  async redirects() {
+    return [
+      {
+        source: "/volunteer",
+        destination: "/register/volunteer",
+        permanent: false
+      }
+    ]
+  }
 })
