@@ -3,7 +3,7 @@ import NextApp from 'next/app'
 import '../styles/app.css'
 import '@hackclub/theme/fonts/reg-bold.css'
 import theme from '../lib/theme'
-import {Box, Card, Container, Flex, Image, ThemeProvider} from 'theme-ui'
+import {Box, Card, Container, Flex, Image, ThemeProvider, Text} from 'theme-ui'
 import ForceTheme from '../components/force-theme'
 import NProgress from '../components/nprogress'
 import Meta from '../components/meta'
@@ -11,6 +11,7 @@ import Head from 'next/head'
 import Link from "next/link";
 import ColorSwitcher from "../components/color-switcher";
 import {Analytics} from "@vercel/analytics/react";
+import Layout from "./layout";
 
 export default class App extends NextApp {
   render() {
@@ -51,7 +52,14 @@ export default class App extends NextApp {
                   width: "100vw",
                   height: "100vh"
               }}></div>*/}
-            <Component {...pageProps} />
+              {/*<Component {...pageProps} />*/}
+              <Layout>
+                  <Card px={[2, 4]} pb={[4, 4]} pt={[2,2]}>
+                      <Box pb={10} mt={3}>
+              <Text variant={"title"}>Ice Cream Social has been canceled due to lack of signups. Thank you for your interest.</Text>
+                      </Box>
+                  </Card>
+              </Layout>
           </div>
         <style>
           {`
